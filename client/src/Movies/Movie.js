@@ -35,6 +35,7 @@ function Movie(props) {
         console.log(err);
       });
     history.push(`/`);
+    window.location.reload();
   };
 
   useEffect(() => {

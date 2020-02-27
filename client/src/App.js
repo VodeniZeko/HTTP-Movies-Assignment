@@ -37,7 +37,7 @@ const App = () => {
         <Movie addToSavedList={addToSavedList} />
       </Route>
       <Route path="/update-form/:id">
-        <UpdateForm />
+        <UpdateForm movie={movieList} />
       </Route>
     </>
   );
