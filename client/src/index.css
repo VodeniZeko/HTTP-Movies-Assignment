@@ -53,13 +53,26 @@ body {
   width: 75%;
   margin: 1rem auto;
 }
-.save-button {
+.save-button,
+.one,
+.two {
   position: absolute;
   top: 25px;
   right: 25px;
   border: 1px solid grey;
   padding: 5px 10px;
   background-color: lightseagreen;
+  cursor: pointer;
+}
+.one {
+  top: 65px;
+  background-color: blue;
+  color: white;
+}
+.two {
+  top: 100px;
+  background-color: red;
+  color: white;
 }
 .save-button:hover {
   background-color: green;
